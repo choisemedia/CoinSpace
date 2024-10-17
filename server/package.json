@@ -19,7 +19,8 @@
     "worker": "node ./worker.js",
     "worker:watch": "nodemon -e js,yaml -w ./ -x node -r dotenv/config ./worker.js dotenv_config_path=./.env.local",
     "lint": "eslint .",
-    "lint:api": "spectral lint ./lib/v*/*.yaml"
+    "lint:api": "spectral lint ./lib/v*/*.yaml",
+    "build": "echo 'Скрипт сборки не определен'"  // Здесь может быть ваш реальный скрипт сборки
   },
   "dependencies": {
     "@coinspace/crypto-db": "^1.11.5",
