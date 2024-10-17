@@ -1,0 +1,6 @@
+[build]
+  publish = "build"  # Замените на нужную директорию
+  command = "npm run build"  # Команда для сборки, если она определена
+
+[functions]
+  directory = "netlify/functions"  # Если у вас есть функции
